@@ -1,0 +1,25 @@
+---
+title: "Education"
+output: 
+  html_document:
+    toc: true
+    toc_float: true    
+    theme: readable
+---
+
+## University of Pennsylvania
+#### Philadelphia, PA (May 2020)
+* BA in Economics
+* Minors in Mathematics & Survey Research and Data Analytics
+* Relevant Coursework: Econometrics, Applied Data Science, Computational Text Analysis
+
+
+## University of California: San Diego 
+#### La Jolla, CA    (2018 Transfer)
+* BS in Mathematics & Economics	
+* Relevant Coursework: Introduction to Social Data Analytics, Computational Linear Algebra, Introduction to Differential Equations
+
+
+## The Athenian School
+#### Danville, CA    (2016)	
+* Relevant Coursework: AP Statistics, 26-day backpacking course 

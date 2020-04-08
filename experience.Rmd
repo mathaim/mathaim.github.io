@@ -1,0 +1,34 @@
+---
+title: "Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true    
+    theme: readable
+---
+
+## Curology 
+#### Quantitative Marketing Intern 
+#### San Francisco, CA	05/20/2019-08/16/2019
+* Organized and cleaned survey research data for advertisement claims
+* Ran simple linear regressions to identify trends in target market
+* Uploaded and synthesized analytics for video ads on YouTube
+* Researched marketing trends and strategies of DTC companies
+* Aided in developing marketing and copy legal guidelines
+
+## Ketos
+#### Business Strategy Intern 
+#### San Jose, CA	06/19/2018-08/10/2018
+* Identified 30+ sources of data for key target sectors for water technology
+* Designed methodology to consider both market size and pain point size
+* Quantified business value of each customer segment in target industries
+* Created content to be used in future investment presentation to secure B–series funding
+* Provided actionable recommendations based on research
+
+## Rady Behavioral Lab 
+#### Research Assistant
+#### La Jolla, CA	04/1/2017-06/10/2018
+* Conducted studies on behavioral topics including power manipulations and prospect theory (6-10 hours per week) 
+* Collected and organized participant responses by condition, approximately 1,800 human subject pool per quarter
+* Met with study designers to ensure proper execution and useful data
+

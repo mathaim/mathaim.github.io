@@ -1,0 +1,21 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true    
+    theme: readable
+---
+
+## Bio
+I am a current senior at the Universiy of Pennsylvania majoring in Economics and minoring in both Mathematics and Survey Research & Data Analytics. During my time at Penn I served as Team Leader for Latin America, a subdivision of Penn Microfinance and also acted as a Transfer Orientation Leader. I am planning on pursuing a M.S. in Data Science in the near future. I am interested in data science, sustainable economic development, technology, and social impact.
+
+## Programming
+R (Proficient), Stata (Familiar), Python (Intermediate), Microsoft Excel and VBA (Intermediate), MATLAB (Intermediate), SQL (Beginner)
+
+## Languages
+Spanish (Conversational)
+
+## Interests
+Hiking, Backpacking, Soccer, Entreprenuership
+

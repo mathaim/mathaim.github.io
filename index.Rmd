@@ -1,0 +1,10 @@
+---
+title: "Madelyn Mathai"
+output: 
+  html_document:  
+    toc: true  
+    toc_float: true    
+    theme: readable
+---
+
+<center><img src="MadelynHeadshot.jpg" style="width:90%; border:10px solid"></center>

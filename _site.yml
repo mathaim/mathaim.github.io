@@ -1,0 +1,23 @@
+name: "Website"
+output_dir: "."
+navbar: 
+  title: "Madelyn Mathai"
+  left:
+    - text: "About Me"
+      href: aboutme.html
+    - text: "Education"
+      href: education.html
+    - text: "Experience"
+      href: experience.html
+    - text: "Projects"
+      href: proj.html
+  right: 
+    - icon: fa-envelope fa-lg     
+      href: mailto:<madelynm1398@gmail.com>
+    - icon: fa-linkedin fa-lg 
+      href: https://www.linkedin.com/in/madelynmathai/
+    - icon: fa-github fa-lg
+      href: http://github.com/mathaim/
+output:
+  html_document:
+    theme: readable

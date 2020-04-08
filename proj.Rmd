@@ -1,0 +1,41 @@
+---
+title: "Projects"
+author: "Madelyn Mathai"
+date: "4/7/2020"
+output:
+  html_document:
+    toc: true
+    toc_float: true    
+    theme: readable
+---
+##GRE Project
+In September of 2019 I began my Robert A. Fox Fellowship working under Dr. Lauren Russell, Associate Professor of Practice at the Fels Institute of Government at the University of Pennsylvania. She has been examining the effects of requiring GRE as application requirement on racial disparity in STEM PhD programs. I have collected data and prepared a program-year level dataset for analysis. I am in the process of merging data collected regarding the GRE Requirement with admissions data from these schools. I also produced the following visuals in R:
+
+### Biological Sciences Programs
+#### Race
+<center><img src="Bio.Race.Minority.png" style="width:90%; border:10px solid"></center>
+#### Gender
+<center><img src="Bio.Gender.png" style="width:90%; border:10px solid"></center>
+
+### Clinical Medicine Programs
+#### Race
+<center><img src="Med.Race.Minority.png" style="width:90%; border:10px solid"></center>
+#### Gender
+<center><img src="Med.Gender.png" style="width:90%; border:10px solid"></center>
+
+## Drug Policy Project
+
+Abstract: Mass incarceration of racial minorities is at the epicenter of racial inequality in America. This review of US drug policy and the subsequent racial disparities that arise discuss the numerous detrimental effects of over-incarceration on the black individual, the black family, and the black community.
+
+<center><img src="MM.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM2.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM3.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM4.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM5.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM6.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM7.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM8.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM9.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM10.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM11.jpg" style="width:90%; border:5px solid"></center>
+<center><img src="MM12.jpg" style="width:90%; border:5px solid"></center>
