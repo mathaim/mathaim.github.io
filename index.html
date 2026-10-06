@@ -58,7 +58,7 @@
       <div class="entry">
         <h3>Mechanistic Interpretability of Atmospheric Rivers in GraphCast</h3>
         <div class="meta">Jan – Aug 2026 · with Dr. Chirag Agarwal (Aikyam Lab) and Dr. Antonios Mamalakis (Mamalakis Lab)</div>
-        <p>GraphCast is a state-of-the-art AI weather model, but what has it learned about the atmosphere? I applied sparse autoencoders to its internal activations to surface the physical features driving its predictions, and introduced matryoshka sparse autoencoders to climate science as a way to learn hierarchical, multi-scale feature dictionaries. I traced atmospheric river concepts across the model's depth and showed they are causal by steering those features directly.</p>
+        <p>AI weather models now rival operational forecasts, yet how they represent the atmosphere internally remains an open question. Feature attribution shows which inputs matter, not what the model computes. This work trains standard and Matryoshka sparse autoencoders (SAEs) on GraphCast, using atmospheric rivers as the phenomenon of focus, and finds that GraphCast computes atmospheric river intensity (integrated vapor transport) as a stable internal variable, even though it is neither an input nor a target. The Matryoshka SAE also orders concepts by importance and exposes their relations. These concepts persist across depth, and direct interventions confirm they are causal. The method identifies which internal variables a model actually relies on, a prerequisite for asking whether they remain meaningful as the climate warms.</p>
       </div>
       <div class="entry">
         <h3>Data Efficiency in Sparse Autoencoders</h3>
