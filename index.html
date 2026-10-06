@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Madelyn Mathai</title>
+  <meta name="description" content="Madelyn Mathai, PhD student in Data Science at the University of Virginia researching mechanistic interpretability for AI safety and AI weather models.">
+  <meta property="og:title" content="Madelyn Mathai">
+  <meta property="og:description" content="PhD student in Data Science at UVA. Mechanistic interpretability for AI safety, and what AI weather models have learned.">
+  <meta property="og:image" content="https://mathaim.github.io/assets/og.jpg">
+  <meta property="og:url" content="https://mathaim.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-name" href="#about">Madelyn Mathai</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#service">Fellowships &amp; Service</a>
+      <a href="#experience">Experience</a>
+      <a href="assets/Madelyn_Mathai_CV.pdf">CV</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="about">
+      <img src="assets/photo.jpg" alt="Madelyn Mathai sitting on a rock outcrop above a mountain valley">
+      <div>
+        <h1>Madelyn Mathai</h1>
+        <div class="role">PhD Student, Data Science · University of Virginia</div>
+        <p>I study what AI models learn internally. My research is in mechanistic interpretability for AI safety: understanding models' internal representations well enough to verify them, test them causally, and selectively remove them, across models of different modalities.</p>
+        <p>I've also brought these methods to AI weather and climate models, helping introduce them to the climate science community. Beyond my core research, I apply data science to civic and equity-focused work with nonprofits, and I want my technical work to inform AI policy.</p>
+        <p>Before my PhD, I was a data analyst at Ubisoft and an investment analyst at Cambridge Associates.</p>
+        <div class="links">
+          <a href="mailto:mathaimadelyn@gmail.com">Email</a>
+          <a href="https://github.com/mathaim">GitHub</a>
+          <a href="https://www.linkedin.com/in/madelynmathai/">LinkedIn</a>
+          <a href="assets/Madelyn_Mathai_CV.pdf">CV (PDF)</a>
+        </div>
+        <ul class="tags">
+          <li>Mechanistic interpretability</li>
+          <li>AI safety</li>
+          <li>Sparse autoencoders</li>
+          <li>AI for climate</li>
+          <li>AI policy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="entry">
+        <h3>Mechanistic Interpretability of Atmospheric Rivers in GraphCast</h3>
+        <div class="meta">Jan – Aug 2026 · with Dr. Chirag Agarwal (Aikyam Lab) and Dr. Antonios Mamalakis (Mamalakis Lab)</div>
+        <p>GraphCast is a state-of-the-art AI weather model, but what has it learned about the atmosphere? I applied sparse autoencoders to its internal activations to surface the physical features driving its predictions, and introduced matryoshka sparse autoencoders to climate science as a way to learn hierarchical, multi-scale feature dictionaries. I traced atmospheric river concepts across the model's depth and showed they are causal by steering those features directly.</p>
+      </div>
+      <div class="entry">
+        <h3>Data Efficiency in Sparse Autoencoders</h3>
+        <div class="meta">Jun – Aug 2026 · with Dr. Chirag Agarwal (Aikyam Lab)</div>
+        <p>How much data does a sparse autoencoder need? Across 3 language models, 4 architectures, and budgets from 5M to 500M tokens, reconstruction nears full-data performance at just 5% of the budget, but the learned features keep changing. Strict one-to-one feature matches rise from 2% at 1% of the data to 29% at 10%, so functional metrics plateau long before features become reproducible. Diversity-based data selection improves automated interpretability and unlearning, while random sampling best preserves reconstruction.</p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="pub">
+        <strong>Mathai, M.</strong>, Higgins, T. B., Grise, K. M., Agarwal, C., &amp; Mamalakis, A. (2026).
+        <span class="title">Mechanistic Interpretability of Atmospheric Rivers in GraphCast.</span>
+        NeurIPS 2026 Tackling Climate Change with Machine Learning Workshop.
+        <span class="badge">Spotlight</span>
+      </div>
+      <div class="pub">
+        Ghosh, S., <strong>Mathai, M.</strong>, Radhakrishnan, V. B., &amp; Agarwal, C. (2026).
+        <span class="title">Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility.</span>
+        <span class="badge quiet">Under review</span>
+      </div>
+    </section>
+
+    <section id="service">
+      <h2>Fellowships &amp; Service</h2>
+      <div class="entry">
+        <h3>Community Data Fellowship, University of Virginia</h3>
+        <div class="meta">2025 – present</div>
+        <p>One of four graduate fellows leading a community-centered data science project with the Center for Community Partnerships. I'm partnering with The Fountain Fund, a nonprofit providing low-interest loans to formerly incarcerated people, on data analysis that supports their lending and advocacy.</p>
+      </div>
+      <div class="entry">
+        <h3>Standing Committee on AI in Teaching and Learning, UVA Provost's Office</h3>
+        <div class="meta">2026 – present</div>
+        <p>The only student on a university-wide committee advising on AI policy, pedagogy, and responsible use in education.</p>
+      </div>
+      <div class="entry">
+        <h3>Fox Research and Service Fellowship, University of Pennsylvania</h3>
+        <div class="meta">2019 – 2020</div>
+        <p>Analyzed U.S. political outcomes using public opinion and election data with Penn Opinion Research Election Studies faculty.</p>
+      </div>
+      <div class="entry">
+        <h3>Volunteer Data Associate, Correctional Association of New York</h3>
+        <div class="meta">2023</div>
+        <p>Built a Python text extraction tool to pull text from images of death records in New York prisons.</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience &amp; Education</h2>
+      <ul class="compact">
+        <li><span>PhD, Data Science <span class="sub">University of Virginia</span></span><span class="when">expected 2029</span></li>
+        <li><span>Graduate Teaching Assistant <span class="sub">UVA: Intro to Data Science, Intro to Programming</span></span><span class="when">2024 – 2025</span></li>
+        <li><span>Junior Game Data Analyst <span class="sub">Ubisoft</span></span><span class="when">2021 – 2024</span></li>
+        <li><span>Investment Analyst <span class="sub">Cambridge Associates</span></span><span class="when">2020 – 2021</span></li>
+        <li><span>BA, Economics, cum laude <span class="sub">University of Pennsylvania · minors in Mathematics, Survey Research &amp; Data Analytics</span></span><span class="when">2020</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:mathaimadelyn@gmail.com">mathaimadelyn@gmail.com</a> · Last updated October 2026
+  </footer>
+</body>
+</html>
