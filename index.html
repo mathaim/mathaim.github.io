@@ -36,6 +36,7 @@
         <div class="role">PhD Student, Data Science · University of Virginia</div>
         <p>I study what AI models learn internally. My research is in mechanistic interpretability for AI safety: understanding models' internal representations well enough to verify them, test them causally, and selectively remove them, across models of different modalities.</p>
         <p>I've also brought these methods to AI weather and climate models, helping introduce them to the climate science community. Beyond my core research, I apply data science to civic and equity-focused work with nonprofits, and I want my technical work to inform AI policy.</p>
+        <p>I have worked on projects with <a href="https://chirag-agarwall.github.io/">Aikyam Lab</a>, <a href="https://uva.theopenscholar.com/mamalakis-lab">Mamalakis Lab</a>, and <a href="https://www.monasloane.org/sloane-lab">Sloane Lab</a>.</p>
         <p>Before my PhD, I was a data analyst at Ubisoft and an investment analyst at Cambridge Associates.</p>
         <div class="links">
           <a href="mailto:mathaimadelyn@gmail.com">Email</a>
@@ -57,12 +58,12 @@
       <h2>Research</h2>
       <div class="entry">
         <h3>Mechanistic Interpretability of Atmospheric Rivers in GraphCast</h3>
-        <div class="meta">Jan – Aug 2026 · with Dr. Chirag Agarwal (Aikyam Lab) and Dr. Antonios Mamalakis (Mamalakis Lab)</div>
+        <div class="meta">Jan – Aug 2026 · with Dr. Chirag Agarwal (<a href="https://chirag-agarwall.github.io/">Aikyam Lab</a>) and Dr. Antonios Mamalakis (<a href="https://uva.theopenscholar.com/mamalakis-lab">Mamalakis Lab</a>)</div>
         <p>AI weather models now rival operational forecasts, yet how they represent the atmosphere internally remains an open question. Feature attribution shows which inputs matter, not what the model computes. This work trains standard and Matryoshka sparse autoencoders (SAEs) on GraphCast, using atmospheric rivers as the phenomenon of focus, and finds that GraphCast computes atmospheric river intensity (integrated vapor transport) as a stable internal variable, even though it is neither an input nor a target. The Matryoshka SAE also orders concepts by importance and exposes their relations. These concepts persist across depth, and direct interventions confirm they are causal. The method identifies which internal variables a model actually relies on, a prerequisite for asking whether they remain meaningful as the climate warms.</p>
       </div>
       <div class="entry">
         <h3>Data Efficiency in Sparse Autoencoders</h3>
-        <div class="meta">Jun – Aug 2026 · with Dr. Chirag Agarwal (Aikyam Lab)</div>
+        <div class="meta">Jun – Aug 2026 · with Dr. Chirag Agarwal (<a href="https://chirag-agarwall.github.io/">Aikyam Lab</a>)</div>
         <p>Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, but little work has tested whether that scale is necessary. This work trains four SAE architectures on three language models, with budgets from 5M tokens up to a 500M-token reference, and measures two kinds of convergence: functional behavior on standard evaluations, and one-to-one reproducibility of learned features. How much data an SAE needs depends strongly on the metric. Reconstruction often approaches the full-data reference at much smaller budgets, while feature reproducibility keeps improving with more data. For Gemma-2-2B BatchTopK, strictly matched features rise from 2% at 5M tokens to 29% at 50M. Data selection matters too: random sampling better preserves the activation distribution and generally favors reconstruction, while diversity-based sampling often improves AutoInterp. A theoretical analysis separates statistical consistency of subsampled training from the stronger conditions needed for one-to-one feature recovery. Together, the results show SAE training can be far more data-efficient when budgets match the goal and feature-level claims are backed by explicit reproducibility checks.</p>
       </div>
     </section>
